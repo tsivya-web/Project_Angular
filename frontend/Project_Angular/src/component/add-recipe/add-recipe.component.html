@@ -1,0 +1,101 @@
+<p>add-recipe works!</p>
+<div  dir="rtl" class="container mt-5">
+  <h3 class="mb-4 text-center text-primary">
+    <i class="bi bi-journal-plus me-2"></i> הוספת מתכון חדש
+  </h3>
+
+  
+
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <label for="name" class="form-label">שם מתכון</label>
+        <input type="text" class="form-control" id="name" required [(ngModel)]="recipe.name" name="name" placeholder="למשל: עוגת שוקולד"/>
+      </div>
+      <div class="col-md-6">
+        <label for="pic" class="form-label">קישור לתמונה</label>
+        <input type="text" class="form-control" id="pic" [(ngModel)]="recipe.pic" name="pic" placeholder="למשל: cake.jpg"/>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="description" class="form-label">תיאור</label>
+      <textarea class="form-control" id="description" rows="2" [(ngModel)]="recipe.description" name="description" placeholder="תיאור קצר של המתכון..."></textarea>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <label for="level" class="form-label">רמת קושי</label>
+        <select class="form-select" id="level" [(ngModel)]="recipe.level" name="level" required>
+          <option value="" disabled selected>בחר רמה</option>
+          <option>easy</option>
+          <option>middle</option>
+          <option>hard</option>
+        </select>
+      </div>
+      <div class="col-md-4">
+        <label for="duration" class="form-label">משך הכנה</label>
+        <input type="text" class="form-control" id="duration" [(ngModel)]="recipe.duration" name="duration" placeholder="למשל: 45 דקות" />
+      </div>
+      <div class="col-md-4">
+        <label for="amount" class="form-label">כמות מנות</label>
+        <input type="number" min="1" class="form-control" id="amount" [(ngModel)]="recipe.amount" name="amount" />
+      </div>
+    </div>
+  
+ <div>
+<button type="button" class="btn btn-success d-flex align-items-center gap-2" (click)="changeisChecked()">
+  <span class="fs-6 fw-bold">+</span> הוסף מצרך
+</button >
+<br>
+<input
+      class="form-check gap-2"
+      type="text"
+      placeholder="הכמס מצרך חדש"
+      [(ngModel)]="newIngredient"
+      *ngIf="isChecked"
+    />
+  <br>
+<button  *ngIf="isChecked" type="button" class="btn btn-primary align-items-center shadow-sm px-2 py-1" (click)="addIngredient(newIngredient)">
+ הוסף
+</button >
+</div>
+
+
+  <label for="amount" class="form-label fw-bold fs-7"> רשימת מצרכים</label>
+    <br>
+<div dir="rtl" class="mb-2" *ngFor="let ing of ingredients">
+  <div class="d-flex align-items-center gap-2">
+    <input
+      class="form-check-input mt-3"
+      type="checkbox"
+      (checked)="dictionary[ing.id] !== undefined"
+      (change)="toggleIngredient(ing)"
+    />
+   
+    <label class="form-check-label me-2" >
+      {{ ing.name }}
+    </label>
+
+    <input
+      *ngIf="dictionary[ing.id]!==undefined"
+      type="text"
+      class="form-control form-control-sm w-25"
+    [(ngModel)]="ing.amount"
+      placeholder="כמות"
+      (change)="updateAmount(ing)"
+    />
+  </div>
+</div>
+
+    <div class="mb-3">
+      <label for="instructions" class="form-label">הוראות הכנה</label>
+      <textarea class="form-control" id="instructions" rows="4" [(ngModel)]="recipe.instructions" name="instructions" placeholder="הוסיפו את שלבי ההכנה..."></textarea>
+    </div>
+
+    <button (click)="addRecipe()" class="btn btn-success w-100">
+      <i class="bi bi-plus-circle me-2"></i>הוסף מתכון
+    </button>
+
+
+</div>
+

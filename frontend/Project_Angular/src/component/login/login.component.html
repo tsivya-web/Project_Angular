@@ -1,0 +1,17 @@
+<p>login works!</p>
+
+
+  <div class="mb-3 mt-3">
+      <label for="email">Email:</label>
+      <input type="text" class="form-control" [(ngModel)]="email"  placeholder="Enter tour email" name="email">
+    </div>
+      <div class="mb-3 mt-3">
+      <label for="email">Password:</label>
+      <input type="text" class="form-control" [(ngModel)]="password"  placeholder="Enter your password" name="email">
+    </div>
+
+    <p>Email: {{email}}</p>
+<p>Password: {{password}}</p>
+    
+ 
+    <button (click)="CheckUser()"  class="btn btn-primary">Submit</button>

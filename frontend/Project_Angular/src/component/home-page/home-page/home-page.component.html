@@ -1,0 +1,23 @@
+<!-- <p>home-page works!</p> -->
+<!-- @for (item of arr; track $index) {
+  <pre>{{ item | json }}</pre>
+} -->
+
+        <div class=" row row-cols-1 row-cols-md-3 g-4">
+  <div class="col" *ngFor="let recipe of arr">
+    <div class="card h-400 shadow-sm">
+
+      <div class="card-body">
+        <img [src]="getImageUrl(recipe.pic)" class="card-body" 
+  style="max-width: 300px;" alt="image of  {{ recipe.name }}">
+        <h5 class="card-title">{{ recipe.name }}</h5>
+        <p class="card-text text-truncate">{{ recipe.description }}</p>
+        <p class="card-text"><strong>level:</strong> {{ recipe.level }}</p>
+        <p class="card-text"><strong>duration:</strong> {{ recipe.duration }}</p>
+        <p class="card-text"><strong> amount:</strong> {{ recipe.amount }}</p>
+        <a class="btn btn-primary" [routerLink]="['/details', recipe.id]"> details</a>
+      </div>
+    </div>
+  </div>
+</div>
+

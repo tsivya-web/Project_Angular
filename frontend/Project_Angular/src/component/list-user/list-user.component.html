@@ -1,0 +1,43 @@
+<p>list-user works!</p>
+
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-4 mb-4" *ngFor="let user of getArr() ">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">{{ user.fName }} {{ user.lName }}</h5>
+          <p class="card-text">
+            <strong>ID:</strong> {{ user.id }}<br>
+            <strong>Email:</strong> {{ user.email }}
+          </p>
+        </div>
+        <div class="card-footer text-muted text-end">
+          משתמש רשום
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- @for (item of getArr(); track $index) {
+  <div>
+    <p>sssssssssss</p>
+    <p>{{ item }}</p>
+    <p>{{ item.FName }}</p>
+    <p>{{ item.LName }}</p>
+    <p>{{ item.Email }}</p>
+    <p>{{ item.Password }}</p>
+  </div>
+} -->
+
+     
+<!-- <div *ngFor="let item of getArr(); let i = index">
+  <p>sssssssssss</p>
+  <p>{{ item }}</p>
+  <p>{{ item.Id }}</p>
+  <p>{{ item.FName }}</p>
+  <p>{{ item.LName }}</p>
+  <p>{{ item.Email }}</p>
+  <p>{{ item.Password }}</p>
+</div> -->

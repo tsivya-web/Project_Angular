@@ -1,0 +1,22 @@
+<p>register works!</p>
+
+
+  <div class="mb-3 mt-3">
+      <label for="email">Name:</label>
+      <input type="text" class="form-control" [(ngModel)]="user.fName"  placeholder="Enter tour name" name="email">
+    </div>
+      <div class="mb-3 mt-3">
+      <label for="email">Last Name:</label>
+      <input type="text" class="form-control" [(ngModel)]="user.lName"  placeholder="Enter your family" name="email">
+    </div>
+    <div class="mb-3 mt-3">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" ([ngModel])="user.email"  placeholder="Enter email" name="email">
+    </div>
+    <div class="mb-3">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" [(ngModel)]="user.password" id="pwd" placeholder="Enter password" name="pswd">
+    </div>
+ 
+    <button (click)="addUser()"  class="btn btn-primary">Submit</button>
+

@@ -1,0 +1,3 @@
+wwwroot\images\ChokolateCake.png
+wwwroot\images\CupCake.png
+wwwroot\images\IceCofee.png

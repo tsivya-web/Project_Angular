@@ -1,0 +1,32 @@
+
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active " 
+     routerLink="/register"
+       routerLinkActive="active"
+       [routerLinkActiveOptions]="{ exact: true }">הירשם</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link "   routerLink="/login"
+       routerLinkActive="active"
+       [routerLinkActiveOptions]="{ exact: true }" > התחבר</a>
+  </li>
+ <li class="nav-item">
+    <a class="nav-link " *ngIf="getConnected()" 
+     routerLink="/listUser"
+     routerLinkActive="active"
+     [routerLinkActiveOptions]="{ exact: true }">רשימת משתמשים</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link " *ngIf="getConnected()"  routerLink="/home"
+       routerLinkActive="active"
+       [routerLinkActiveOptions]="{ exact: true }"> מתכונים</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link "  *ngIf="getConnected()"
+     routerLink="/add-recipe"
+       routerLinkActive="active"
+       [routerLinkActiveOptions]="{ exact: true }"> הוספת מתכון</a>
+  </li>
+  
+</ul>
