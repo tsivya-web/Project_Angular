@@ -34,7 +34,5 @@ Built with **Angular** (frontend) and **ASP.NET Core Web API** (backend), using 
 1.In /client, run:
 2. Run
 ```
-
-Edit
 npm install
 ng serve```
