@@ -29,10 +29,10 @@ Built with **Angular** (frontend) and **ASP.NET Core Web API** (backend), using 
 2. Run:
    ```bash
    dotnet ef database update
-   dotnet run```
+   dotnet run
 ### Frontend
 1.In /client, run:
 2. Run
 ```
 npm install
-ng serve```
+ng serve
