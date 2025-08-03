@@ -9,7 +9,8 @@ import { DetailsRecipeComponent } from '../component/details-recipe/details-reci
 import { AddRecipeComponent } from '../component/add-recipe/add-recipe.component';
 import { RecipeService } from '../services/recipe/recipe.service';
 import { Recipe } from '../interface/recipe';
-
+import { isPlatformBrowser } from '@angular/common';
+import { Inject, PLATFORM_ID } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -22,13 +23,14 @@ import { Recipe } from '../interface/recipe';
 })
 
 export class AppComponent {
-  constructor(private recipeService:RecipeService ){}
+  constructor(private recipeService:RecipeService, @Inject(PLATFORM_ID) private platformId: Object){}
   title = 'HW';
   arr:Array<Recipe>=[
   ];
   ngOnInit() {
     debugger
-  localStorage.setItem('connected', 'false');
+    if (isPlatformBrowser(this.platformId)) {
+  localStorage.setItem('connected', 'false');}
   this.recipeService.get().subscribe({
     next:(data)=>{
       debugger
