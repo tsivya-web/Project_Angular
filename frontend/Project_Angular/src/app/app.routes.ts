@@ -16,7 +16,7 @@ export const routes: Routes = [
 {
   path: 'details/:id',
   component: DetailsRecipeComponent,
-  data: { renderMode: 'default' }
+  data: { renderMode: 'client' }
 }
 ,
 {path:'add-recipe',component:AddRecipeComponent}

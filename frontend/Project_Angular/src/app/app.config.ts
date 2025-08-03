@@ -8,7 +8,7 @@ import { provideHttpClient } from '@angular/common/http';
 export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
-    provideRouter(routes, withDisabledInitialNavigation()), // 🟢 כאן ההוספה החשובה
+    provideRouter(routes, withDisabledInitialNavigation()),
     provideClientHydration(withEventReplay()),
     provideHttpClient()
   ]
