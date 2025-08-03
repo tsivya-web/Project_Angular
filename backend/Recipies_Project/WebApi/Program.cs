@@ -29,10 +29,16 @@ builder.Services.AddScoped<IIngredientService, IngredientService>();
 builder.Services.AddScoped<IIngredient_RecipeRepository, Ingredient_RecipeRepository>();
 builder.Services.AddScoped<IIngredient_RecipeService, Ingredient_RecipeService>();
 
-builder.Services.AddDbContext<DataContext>(options =>
-    options.UseNpgsql("Host=db.yoywzqgbwlnozptgbzvg.supabase.co;Port=5432;Database=postgres;Username=postgres;" +
-    "Password=9n6RMTmIljtKqgJE;Ssl Mode=Require;Trust Server Certificate=true"));
+var host = Environment.GetEnvironmentVariable("DB_HOST");
+var port = Environment.GetEnvironmentVariable("DB_PORT");
+var database = Environment.GetEnvironmentVariable("DB_DATABASE");
+var username = Environment.GetEnvironmentVariable("DB_USERNAME");
+var password = Environment.GetEnvironmentVariable("DB_PASSWORD");
 
+var connectionString = $"Host={host};Port={port};Database={database};Username={username};Password={password};Ssl Mode=Require;Trust Server Certificate=true";
+
+builder.Services.AddDbContext<DataContext>(options =>
+    options.UseNpgsql(connectionString));
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",

@@ -11,6 +11,11 @@ namespace WebApi.Controllers
     public class UserController : ControllerBase
     {
         IUserService _userService;
+        public IActionResult Get()
+        {
+            return Ok("Server is running!");
+        }
+
         public UserController(IUserService userService)
         {
             _userService = userService;
