@@ -15,7 +15,8 @@ import { AddRecipeComponent } from '../component/add-recipe/add-recipe.component
     ,LoginComponent,RouterModule,NavComponent,HomePageComponent,
   DetailsRecipeComponent,AddRecipeComponent],
   templateUrl: './app.component.html',
-  styleUrls:[ './app.component.css']
+  styleUrls:[ './app.component.css'],
+  standalone: true
 })
 export class AppComponent {
   title = 'HW';

@@ -13,6 +13,11 @@ export const routes: Routes = [
 {path:'listUser',component:ListUserComponent},
 {path:'login',component:LoginComponent},
 {path:'home',component:HomePageComponent},
-{path:'details/:id',component:DetailsRecipeComponent},
+{
+  path: 'details/:id',
+  component: DetailsRecipeComponent,
+  data: { renderMode: 'default' }
+}
+,
 {path:'add-recipe',component:AddRecipeComponent}
 ];
