@@ -1,0 +1,665 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F938A6B-D677-4DDE-86F0-F4A39B14C0E9}|DATA\\DATA.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\data\\repositories\\ingredient_reciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F938A6B-D677-4DDE-86F0-F4A39B14C0E9}|DATA\\DATA.csproj|solutionrelative:data\\repositories\\ingredient_reciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\webapi\\controllers\\ingredientrecipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\ingredientrecipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\webapi\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\core\\service\\iingredient_recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|solutionrelative:core\\service\\iingredient_recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\core\\repositories\\iingredient_reciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|solutionrelative:core\\repositories\\iingredient_reciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9FD3D4B-4FC8-4A56-B623-F057C72352FF}|SERVICE\\SERVICE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\service\\service\\ingredient_recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9FD3D4B-4FC8-4A56-B623-F057C72352FF}|SERVICE\\SERVICE.csproj|solutionrelative:service\\service\\ingredient_recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\core\\entities\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|solutionrelative:core\\entities\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\core\\entities\\ingredientrecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|solutionrelative:core\\entities\\ingredientrecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F938A6B-D677-4DDE-86F0-F4A39B14C0E9}|DATA\\DATA.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\data\\repositories\\recipiesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F938A6B-D677-4DDE-86F0-F4A39B14C0E9}|DATA\\DATA.csproj|solutionrelative:data\\repositories\\recipiesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\webapi\\wwwroot\\images\\chokolatecake.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\images\\chokolatecake.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\webapi\\wwwroot\\images\\icecofee.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\images\\icecofee.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\core\\repositories\\irecipiesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|solutionrelative:core\\repositories\\irecipiesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9FD3D4B-4FC8-4A56-B623-F057C72352FF}|SERVICE\\SERVICE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\service\\service\\recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9FD3D4B-4FC8-4A56-B623-F057C72352FF}|SERVICE\\SERVICE.csproj|solutionrelative:service\\service\\recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\core\\service\\irecipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|solutionrelative:core\\service\\irecipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|solutionrelative:core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9FD3D4B-4FC8-4A56-B623-F057C72352FF}|SERVICE\\SERVICE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\service\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9FD3D4B-4FC8-4A56-B623-F057C72352FF}|SERVICE\\SERVICE.csproj|solutionrelative:service\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F938A6B-D677-4DDE-86F0-F4A39B14C0E9}|DATA\\DATA.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F938A6B-D677-4DDE-86F0-F4A39B14C0E9}|DATA\\DATA.csproj|solutionrelative:data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\core\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|solutionrelative:core\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\core\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|solutionrelative:core\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9FD3D4B-4FC8-4A56-B623-F057C72352FF}|SERVICE\\SERVICE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9FD3D4B-4FC8-4A56-B623-F057C72352FF}|SERVICE\\SERVICE.csproj|solutionrelative:service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\webapi\\controllers\\ingredientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\ingredientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9FD3D4B-4FC8-4A56-B623-F057C72352FF}|SERVICE\\SERVICE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F9FD3D4B-4FC8-4A56-B623-F057C72352FF}|SERVICE\\SERVICE.csproj|solutionrelative:service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F938A6B-D677-4DDE-86F0-F4A39B14C0E9}|DATA\\DATA.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\data\\repositories\\ingredientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F938A6B-D677-4DDE-86F0-F4A39B14C0E9}|DATA\\DATA.csproj|solutionrelative:data\\repositories\\ingredientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\core\\service\\iingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|solutionrelative:core\\service\\iingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F938A6B-D677-4DDE-86F0-F4A39B14C0E9}|DATA\\DATA.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F938A6B-D677-4DDE-86F0-F4A39B14C0E9}|DATA\\DATA.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9FD3D4B-4FC8-4A56-B623-F057C72352FF}|SERVICE\\SERVICE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\service\\service\\ingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9FD3D4B-4FC8-4A56-B623-F057C72352FF}|SERVICE\\SERVICE.csproj|solutionrelative:service\\service\\ingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\core\\entities\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|solutionrelative:core\\entities\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F938A6B-D677-4DDE-86F0-F4A39B14C0E9}|DATA\\DATA.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F938A6B-D677-4DDE-86F0-F4A39B14C0E9}|DATA\\DATA.csproj|solutionrelative:data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.ImportWorkloads.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\Entities\\DataContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApi\\Entities\\DataContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\core\\repositories\\iingredientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|solutionrelative:core\\repositories\\iingredientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F938A6B-D677-4DDE-86F0-F4A39B14C0E9}|DATA\\DATA.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8F938A6B-D677-4DDE-86F0-F4A39B14C0E9}|DATA\\DATA.csproj|solutionrelative:data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|solutionrelative:core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\webapi\\webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{1CBA099A-4531-4AFD-902A-EB17E5268396}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|c:\\users\\tsyvia\\desktop\\second year\\c#advance\\recipies\\recipies_project\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A3F0F2DE-D948-4C40-B1F2-B234250BAE1E}|CORE\\CORE.csproj|solutionrelative:core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2066826798:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:167753769:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ingredient_RecipeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\DATA\\repositories\\Ingredient_RecipeRepository.cs",
+              "RelativeDocumentMoniker": "DATA\\repositories\\Ingredient_RecipeRepository.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\DATA\\repositories\\Ingredient_RecipeRepository.cs",
+              "RelativeToolTip": "DATA\\repositories\\Ingredient_RecipeRepository.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:19:38.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IIngredient_RecipeService.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\service\\IIngredient_RecipeService.cs",
+              "RelativeDocumentMoniker": "CORE\\service\\IIngredient_RecipeService.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\service\\IIngredient_RecipeService.cs",
+              "RelativeToolTip": "CORE\\service\\IIngredient_RecipeService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:25:22.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ingredient_RecipeService.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\SERVICE\\service\\Ingredient_RecipeService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\service\\Ingredient_RecipeService.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\SERVICE\\service\\Ingredient_RecipeService.cs",
+              "RelativeToolTip": "SERVICE\\service\\Ingredient_RecipeService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwCEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T21:08:17.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\RecipeController.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\RecipeController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T20:58:31.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IngredientRecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\Controllers\\IngredientRecipeController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\IngredientRecipeController.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\Controllers\\IngredientRecipeController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\IngredientRecipeController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwBsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T21:54:14.894Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IIngredient_RecipeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\repositories\\IIngredient_RecipeRepository.cs",
+              "RelativeDocumentMoniker": "CORE\\repositories\\IIngredient_RecipeRepository.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\repositories\\IIngredient_RecipeRepository.cs",
+              "RelativeToolTip": "CORE\\repositories\\IIngredient_RecipeRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:12:02.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\Entities\\Recipe.cs",
+              "RelativeDocumentMoniker": "CORE\\Entities\\Recipe.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\Entities\\Recipe.cs",
+              "RelativeToolTip": "CORE\\Entities\\Recipe.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:48:54.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IngredientRecipe.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\Entities\\IngredientRecipe.cs",
+              "RelativeDocumentMoniker": "CORE\\Entities\\IngredientRecipe.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\Entities\\IngredientRecipe.cs",
+              "RelativeToolTip": "CORE\\Entities\\IngredientRecipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:07:18.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RecipiesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\DATA\\repositories\\RecipiesRepository.cs",
+              "RelativeDocumentMoniker": "DATA\\repositories\\RecipiesRepository.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\DATA\\repositories\\RecipiesRepository.cs",
+              "RelativeToolTip": "DATA\\repositories\\RecipiesRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwCgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:26:05.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T10:23:49.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\appsettings.json",
+              "RelativeToolTip": "WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-13T10:23:42.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "CORE\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\Entities\\User.cs",
+              "RelativeToolTip": "CORE\\Entities\\User.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIA4wBEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:59:27.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChokolateCake.png",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\wwwroot\\images\\ChokolateCake.png",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\images\\ChokolateCake.png",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\wwwroot\\images\\ChokolateCake.png",
+              "RelativeToolTip": "WebApi\\wwwroot\\images\\ChokolateCake.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-24T22:02:47.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IceCofee.png",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\wwwroot\\images\\IceCofee.png",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\images\\IceCofee.png",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\wwwroot\\images\\IceCofee.png",
+              "RelativeToolTip": "WebApi\\wwwroot\\images\\IceCofee.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-24T22:02:07.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IRecipiesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\repositories\\IRecipiesRepository.cs",
+              "RelativeDocumentMoniker": "CORE\\repositories\\IRecipiesRepository.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\repositories\\IRecipiesRepository.cs",
+              "RelativeToolTip": "CORE\\repositories\\IRecipiesRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:10:03.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\WebApi.csproj",
+              "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\WebApi.csproj",
+              "RelativeToolTip": "WebApi\\WebApi.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-13T13:12:33.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\SERVICE\\service\\UserService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\service\\UserService.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\SERVICE\\service\\UserService.cs",
+              "RelativeToolTip": "SERVICE\\service\\UserService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:34:18.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RecipeService.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\SERVICE\\service\\RecipeService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\service\\RecipeService.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\SERVICE\\service\\RecipeService.cs",
+              "RelativeToolTip": "SERVICE\\service\\RecipeService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADgvx0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:37:12.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IRecipeService.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\service\\IRecipeService.cs",
+              "RelativeDocumentMoniker": "CORE\\service\\IRecipeService.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\service\\IRecipeService.cs",
+              "RelativeToolTip": "CORE\\service\\IRecipeService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:26:17.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAuwCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:46:39.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\DATA\\repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DATA\\repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\DATA\\repositories\\UserRepository.cs",
+              "RelativeToolTip": "DATA\\repositories\\UserRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwCUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:27:00.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\service\\IUserService.cs",
+              "RelativeDocumentMoniker": "CORE\\service\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\service\\IUserService.cs",
+              "RelativeToolTip": "CORE\\service\\IUserService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:22:56.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "CORE\\repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\repositories\\IUserRepository.cs",
+              "RelativeToolTip": "CORE\\repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:09:29.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\SERVICE\\Class1.cs",
+              "RelativeDocumentMoniker": "SERVICE\\Class1.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\SERVICE\\Class1.cs",
+              "RelativeToolTip": "SERVICE\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:06:06.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IngredientController.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\Controllers\\IngredientController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\IngredientController.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\Controllers\\IngredientController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\IngredientController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwB4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:35:28.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SERVICE.csproj",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\SERVICE\\SERVICE.csproj",
+              "RelativeDocumentMoniker": "SERVICE\\SERVICE.csproj",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\SERVICE\\SERVICE.csproj",
+              "RelativeToolTip": "SERVICE\\SERVICE.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-13T14:33:51.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IngredientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\DATA\\repositories\\IngredientRepository.cs",
+              "RelativeDocumentMoniker": "DATA\\repositories\\IngredientRepository.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\DATA\\repositories\\IngredientRepository.cs",
+              "RelativeToolTip": "DATA\\repositories\\IngredientRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwB0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:25:55.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IIngredientService.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\service\\IIngredientService.cs",
+              "RelativeDocumentMoniker": "CORE\\service\\IIngredientService.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\service\\IIngredientService.cs",
+              "RelativeToolTip": "CORE\\service\\IIngredientService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAArwAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:24:32.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\DATA\\DataContext.cs",
+              "RelativeDocumentMoniker": "DATA\\DataContext.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\DATA\\DataContext.cs",
+              "RelativeToolTip": "DATA\\DataContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAArwBoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:09:51.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IngredientService.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\SERVICE\\service\\IngredientService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\service\\IngredientService.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\SERVICE\\service\\IngredientService.cs",
+              "RelativeToolTip": "SERVICE\\service\\IngredientService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwBoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:31:00.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Ingredient.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\Entities\\Ingredient.cs",
+              "RelativeDocumentMoniker": "CORE\\Entities\\Ingredient.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\Entities\\Ingredient.cs",
+              "RelativeToolTip": "CORE\\Entities\\Ingredient.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:07:35.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\DATA\\Class1.cs",
+              "RelativeDocumentMoniker": "DATA\\Class1.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\DATA\\Class1.cs",
+              "RelativeToolTip": "DATA\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:05:24.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Microsoft.NET.Sdk.ImportWorkloads.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.ImportWorkloads.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.ImportWorkloads.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.ImportWorkloads.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.ImportWorkloads.targets",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-14T21:05:16.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\Entities\\DataContext.cs",
+              "RelativeDocumentMoniker": "WebApi\\Entities\\DataContext.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\Entities\\DataContext.cs",
+              "RelativeToolTip": "WebApi\\Entities\\DataContext.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAnwIUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:05:56.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IIngredientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\repositories\\IIngredientRepository.cs",
+              "RelativeDocumentMoniker": "CORE\\repositories\\IIngredientRepository.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\repositories\\IIngredientRepository.cs",
+              "RelativeToolTip": "CORE\\repositories\\IIngredientRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:10:49.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DATA.csproj",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\DATA\\DATA.csproj",
+              "RelativeDocumentMoniker": "DATA\\DATA.csproj",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\DATA\\DATA.csproj",
+              "RelativeToolTip": "DATA\\DATA.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-13T13:16:46.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\Class1.cs",
+              "RelativeDocumentMoniker": "CORE\\Class1.cs",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\Class1.cs",
+              "RelativeToolTip": "CORE\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:05:41.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "WebApi.http",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\WebApi.http",
+              "RelativeDocumentMoniker": "WebApi\\WebApi.http",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\WebApi\\WebApi.http",
+              "RelativeToolTip": "WebApi\\WebApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-13T20:59:28.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CORE.csproj",
+              "DocumentMoniker": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\CORE.csproj",
+              "RelativeDocumentMoniker": "CORE\\CORE.csproj",
+              "ToolTip": "C:\\Users\\Tsyvia\\Desktop\\Second Year\\c#Advance\\RECIPIES\\Recipies_Project\\CORE\\CORE.csproj",
+              "RelativeToolTip": "CORE\\CORE.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-13T15:19:39.307Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
