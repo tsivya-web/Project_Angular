@@ -30,7 +30,9 @@ builder.Services.AddScoped<IIngredient_RecipeRepository, Ingredient_RecipeReposi
 builder.Services.AddScoped<IIngredient_RecipeService, Ingredient_RecipeService>();
 
 builder.Services.AddDbContext<DataContext>(options =>
-options.UseSqlServer(@"Server=LAPTOP\\MSSQLSERVER02;Database=Recipies;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;"));
+    options.UseNpgsql("Host=db.yoywzqgbwlnozptgbzvg.supabase.co;Port=5432;Database=postgres;Username=postgres;" +
+    "Password=9n6RMTmIljtKqgJE;Ssl Mode=Require;Trust Server Certificate=true"));
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",

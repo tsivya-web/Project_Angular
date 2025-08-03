@@ -288,3 +288,15 @@ C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angula
 C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\WebApi\obj\Debug\net8.0\WebApi.pdb
 C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\WebApi\obj\Debug\net8.0\ref\WebApi.dll
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\WebApi\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\WebApi\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\WebApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\WebApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\WebApi\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\WebApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\WebApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\WebApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\WebApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\WebApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\WebApi\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\WebApi\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll

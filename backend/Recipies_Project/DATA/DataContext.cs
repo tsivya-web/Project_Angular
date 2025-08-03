@@ -23,8 +23,7 @@ public partial class DataContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Name=MyDB");
+ 
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
