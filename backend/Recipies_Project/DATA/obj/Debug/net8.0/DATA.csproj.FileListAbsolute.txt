@@ -16,3 +16,21 @@ C:\Users\Tsyvia\Desktop\Second Year\c#Advance\RECIPIES\Recipies_Project\DATA\obj
 C:\Users\Tsyvia\Desktop\Second Year\c#Advance\RECIPIES\Recipies_Project\DATA\bin\Debug\net8.0\CORE.dll
 C:\Users\Tsyvia\Desktop\Second Year\c#Advance\RECIPIES\Recipies_Project\DATA\bin\Debug\net8.0\CORE.pdb
 C:\Users\Tsyvia\Desktop\Second Year\c#Advance\RECIPIES\Recipies_Project\DATA\obj\Debug\net8.0\DATA.csproj.Up2Date
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\DATA\bin\Debug\net8.0\DATA.deps.json
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\DATA\bin\Debug\net8.0\DATA.runtimeconfig.json
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\DATA\bin\Debug\net8.0\DATA.dll
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\DATA\bin\Debug\net8.0\DATA.pdb
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\DATA\bin\Debug\net8.0\CORE.dll
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\DATA\bin\Debug\net8.0\CORE.pdb
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\DATA\obj\Debug\net8.0\DATA.csproj.AssemblyReference.cache
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\DATA\obj\Debug\net8.0\DATA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\DATA\obj\Debug\net8.0\DATA.AssemblyInfoInputs.cache
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\DATA\obj\Debug\net8.0\DATA.AssemblyInfo.cs
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\DATA\obj\Debug\net8.0\DATA.csproj.CoreCompileInputs.cache
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\DATA\obj\Debug\net8.0\DATA.sourcelink.json
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\DATA\obj\Debug\net8.0\DATA.csproj.Up2Date
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\DATA\obj\Debug\net8.0\DATA.dll
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\DATA\obj\Debug\net8.0\refint\DATA.dll
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\DATA\obj\Debug\net8.0\DATA.pdb
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\DATA\obj\Debug\net8.0\DATA.genruntimeconfig.cache
+C:\Users\Tsyvia\Desktop\כיתה יד\פרויקט באנגולר\Project_Angular\backend\Recipies_Project\DATA\obj\Debug\net8.0\ref\DATA.dll
