@@ -6,6 +6,7 @@ import { HomePageComponent } from '../component/home-page/home-page/home-page.co
 import { DetailsRecipeComponent } from '../component/details-recipe/details-recipe.component';
 import { AddRecipeComponent } from '../component/add-recipe/add-recipe.component';
 import { NavComponent } from '../component/nav/nav.component';
+import { Recipe } from '../interface/recipe';
 
 export const routes: Routes = [
   {path:'',component:LoginComponent},
@@ -21,3 +22,6 @@ export const routes: Routes = [
 ,
 {path:'add-recipe',component:AddRecipeComponent}
 ];
+
+
+

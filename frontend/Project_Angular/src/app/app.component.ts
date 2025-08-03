@@ -7,6 +7,8 @@ import { LoginComponent } from '../component/login/login.component';
 import { HomePageComponent } from '../component/home-page/home-page/home-page.component';
 import { DetailsRecipeComponent } from '../component/details-recipe/details-recipe.component';
 import { AddRecipeComponent } from '../component/add-recipe/add-recipe.component';
+import { RecipeService } from '../services/recipe/recipe.service';
+import { Recipe } from '../interface/recipe';
 
 
 @Component({
@@ -18,10 +20,25 @@ import { AddRecipeComponent } from '../component/add-recipe/add-recipe.component
   styleUrls:[ './app.component.css'],
   standalone: true
 })
+
 export class AppComponent {
+  constructor(private recipeService:RecipeService ){}
   title = 'HW';
+  arr:Array<Recipe>=[
+  ];
   ngOnInit() {
     debugger
   localStorage.setItem('connected', 'false');
+  this.recipeService.get().subscribe({
+    next:(data)=>{
+      debugger
+      this.arr=data
+    },
+    error:err=>{
+      debugger
+      console.log(err)
+    }
+  })
 }
+
 }
