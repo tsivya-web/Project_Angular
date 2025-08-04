@@ -234,6 +234,16 @@
   },
   {
     "ContainingType": "WebApi.Controllers.UserController",
+    "Method": "Get",
+    "RelativePath": "api/User",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.UserController",
     "Method": "GetAll",
     "RelativePath": "api/User",
     "HttpMethod": "GET",
