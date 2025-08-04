@@ -29,18 +29,18 @@ builder.Services.AddScoped<IIngredientService, IngredientService>();
 builder.Services.AddScoped<IIngredient_RecipeRepository, Ingredient_RecipeRepository>();
 builder.Services.AddScoped<IIngredient_RecipeService, Ingredient_RecipeService>();
 
-//var host = Environment.GetEnvironmentVariable("DB_HOST");
-//var port = Environment.GetEnvironmentVariable("DB_PORT");
-//var database = Environment.GetEnvironmentVariable("DB_DATABASE");
-//var username = Environment.GetEnvironmentVariable("DB_USERNAME");
-//var password = Environment.GetEnvironmentVariable("DB_PASSWORD");
-
-var host = "db.yoywzqgbwlnozptgbzvg.supabase.co";
-var port = "5432";
-var database = "postgres";
-var username = "postgres";
-var password = "U1w2xIX5axAEdJ5P";
-var connectionString = $"Host={host};Port={port};Database={database};Username={username};Password={password};Ssl Mode=Require;Trust Server Certificate=true";
+var host = Environment.GetEnvironmentVariable("DB_HOST");
+var port = Environment.GetEnvironmentVariable("DB_PORT");
+var database = Environment.GetEnvironmentVariable("DB_DATABASE");
+var username = Environment.GetEnvironmentVariable("DB_USERNAME");
+var password = Environment.GetEnvironmentVariable("DB_PASSWORD");
+var pool_mode = Environment.GetEnvironmentVariable("DB_POOLMODE");
+//var host = "db.yoywzqgbwlnozptgbzvg.supabase.co";
+//var port = "5432";
+//var database = "postgres";
+//var username = "postgres";
+//var password = "U1w2xIX5axAEdJ5P";
+var connectionString = $"Host={host};Port={port};Database={database};Username={username};Password={password};Ssl Mode=Require;Trust Server Certificate=true;Pool Mode={pool_mode}";
 Console.WriteLine("Building connection string: " + connectionString);
 builder.Services.AddDbContext<DataContext>(options =>
     options.UseNpgsql(connectionString));
