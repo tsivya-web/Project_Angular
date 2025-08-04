@@ -11,10 +11,7 @@ namespace WebApi.Controllers
     public class UserController : ControllerBase
     {
         IUserService _userService;
-        public IActionResult Get()
-        {
-            return Ok("Server is running!");
-        }
+       
 
         public UserController(IUserService userService)
         {
@@ -26,6 +23,7 @@ namespace WebApi.Controllers
         {
             return _userService.GetAll();
         }
+
 
         // GET api/<UserController>/5
         [HttpGet("{email}/{password}")]
