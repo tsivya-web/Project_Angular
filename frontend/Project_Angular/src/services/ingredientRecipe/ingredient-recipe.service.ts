@@ -11,7 +11,7 @@ export class IngredientRecipeService {
 
   constructor(private http:HttpClient) { }
 
-   url="https://localhost:7261/api/IngredientRecipe"
+   url="https://backend-project-angular.onrender.com/api/IngredientRecipe"
 
    arr:Array<IngredientRecipe>=[]
 

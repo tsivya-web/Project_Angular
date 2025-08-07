@@ -7,7 +7,7 @@ import { User } from '../../interface/user';
   providedIn: 'root'
 })
 export class UserService {
-url="https://localhost:7261/api/User"
+url="https://backend-project-angular.onrender.com/api/User"
 currentUser:User={ id :0,
 fName:"",
 lName:"",

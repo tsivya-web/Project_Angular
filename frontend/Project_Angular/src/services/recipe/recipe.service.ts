@@ -12,7 +12,7 @@ export class RecipeService {
 
   arr:Array<Recipe>=new Array<Recipe>();
 
-url="https://localhost:7261/api/Recipe"
+url="https://backend-project-angular.onrender.com/api/Recipe"
 
 
   get():Observable<Recipe[]>{

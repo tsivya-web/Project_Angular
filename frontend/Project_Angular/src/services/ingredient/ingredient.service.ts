@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 export class IngredientService {
 
   constructor(private http:HttpClient) { }
-  url="https://localhost:7261/api/Ingredient"
+  url="https://backend-project-angular.onrender.com/api/Ingredient"
 
 arr:Array<Ingredient>=new Array<Ingredient>()
 
