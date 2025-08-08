@@ -27,6 +27,6 @@ console.log(err)
 }
 
 getImageUrl(im:string): string {
-   return `https://localhost:7261/images/${encodeURIComponent(im)}`;
+   return `https://backend-project-angular.onrender.com/images/${encodeURIComponent(im)}`;
 }
 }
