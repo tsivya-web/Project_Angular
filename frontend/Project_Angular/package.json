@@ -1,17 +1,27 @@
 {
-  "name": "my-angular-app",
-  "version": "0.0.0",
+  "name": "recipes-angular-app",
+  "version": "1.0.0",
+  "description": "Professional Recipe Management Application with Angular Frontend and .NET Backend",
+  "author": "Your Name",
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-   
+    "start": "ng serve --open",
+    "build": "ng build --configuration production",
+    "build:dev": "ng build --configuration development",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-      "build": "ng build --configuration production",
-    "serve:ssr:my-angular-app": "node dist/my-angular-app/server/server.mjs"
+    "test:coverage": "ng test --code-coverage",
+    "lint": "ng lint",
+    "lint:fix": "ng lint --fix",
+    "e2e": "ng e2e",
+    "serve:ssr": "node dist/recipes-angular-app/server/server.mjs",
+    "build:ssr": "ng build && ng run recipes-angular-app:server",
+    "prerender": "ng run recipes-angular-app:prerender"
   },
   "private": true,
   "dependencies": {
+    "@angular/animations": "^19.2.0",
     "@angular/common": "^19.2.0",
     "@angular/compiler": "^19.2.0",
     "@angular/core": "^19.2.0",
@@ -21,11 +31,19 @@
     "@angular/platform-server": "^19.2.0",
     "@angular/router": "^19.2.0",
     "@angular/ssr": "^19.2.3",
+    "@angular/material": "^19.2.0",
+    "@angular/cdk": "^19.2.0",
     "bootstrap": "^5.3.6",
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.15.0"
+    "zone.js": "~0.15.0",
+    "@angular/flex-layout": "^15.0.0-beta.42",
+    "ngx-toastr": "^18.0.0",
+    "ngx-spinner": "^16.0.2",
+    "sweetalert2": "^11.10.1",
+    "chart.js": "^4.4.0",
+    "ng2-charts": "^5.0.4"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^19.2.3",
@@ -34,13 +52,35 @@
     "@types/express": "^4.17.17",
     "@types/jasmine": "~5.1.0",
     "@types/node": "^18.18.0",
+    "@types/sweetalert2": "^11.0.0",
     "jasmine-core": "~5.6.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "typescript": "~5.7.2"
-  }
-
+    "typescript": "~5.7.2",
+    "eslint": "^8.57.0",
+    "@angular-eslint/eslint-plugin": "^19.0.0",
+    "@angular-eslint/eslint-plugin-template": "^19.0.0",
+    "@angular-eslint/template": "^19.0.0",
+    "prettier": "^3.2.5",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "your-repository-url"
+  },
+  "keywords": [
+    "angular",
+    "recipes",
+    "food",
+    "management",
+    "web-app"
+  ]
 }

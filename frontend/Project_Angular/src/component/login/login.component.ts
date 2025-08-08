@@ -12,35 +12,62 @@ import { FormsModule } from '@angular/forms';
 })
 export class LoginComponent {
   
-email:string=""
-password:string=""
+  email: string = "";
+  password: string = "";
+  showPassword: boolean = false;
+  rememberMe: boolean = false;
+  isLoading: boolean = false;
 
-constructor(private userService:UserService,private router:Router){}
+  constructor(private userService: UserService, private router: Router) {}
 
+  CheckUser() {
+    if (!this.email || !this.password) {
+      alert("אנא מלא את כל השדות");
+      return;
+    }
 
-CheckUser(){
-this.userService.getUser(this.email,this.password).subscribe({
-  next:(data)=>{
- console.log(data)
-    debugger
-    alert("you are login")
-    this.userService.currentUser=data
-    this.userService.connected=true
-    localStorage.setItem('connected','true')
-  this.router.navigate(['listUser'])
-
-  },
-  error:
-  (err)=>{
-    debugger  
-     console.log(err)
-         alert("you are not login")
-    this.router.navigate(['register'])
+    this.isLoading = true;
+    
+    this.userService.getUser(this.email, this.password).subscribe({
+      next: (data) => {
+        console.log(data);
+        this.userService.currentUser = data;
+        this.userService.connected = true;
+        localStorage.setItem('connected', 'true');
+        
+        if (this.rememberMe) {
+          localStorage.setItem('rememberMe', 'true');
+          localStorage.setItem('userEmail', this.email);
+        }
+        
+        this.isLoading = false;
+        alert("התחברת בהצלחה!");
+        this.router.navigate(['home']);
+      },
+      error: (err) => {
+        console.log(err);
+        this.isLoading = false;
+        alert("שם משתמש או סיסמה שגויים");
+        this.router.navigate(['register']);
+      }
+    });
   }
- 
-})}
 
+  togglePasswordVisibility() {
+    this.showPassword = !this.showPassword;
+  }
 
+  onEmailChange() {
+    // Remove any validation styling or messages
+  }
+
+  onPasswordChange() {
+    // Remove any validation styling or messages
+  }
+
+  validateForm(): boolean {
+    return this.email.trim() !== '' && this.password.trim() !== '';
+  }
 }
 
     

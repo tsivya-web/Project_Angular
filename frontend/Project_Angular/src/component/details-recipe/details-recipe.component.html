@@ -1,66 +1,109 @@
-<p>details-recipe works!</p>
-
-
-    <div class="container py-5">
-  <div class="card shadow-lg border-0 rounded-4 overflow-hidden">
-    <div class="row g-0">
-      
-      <!-- תמונה -->
-      <div class="col-md-5 bg-light">
-        <img [src]="getImageUrl(recipe.pic)" class="card-body" 
- alt="{{ recipe.name }}">
-      </div>
-
-      <!-- פרטים -->
-      <div class="col-md-7 p-4">
-        <h2 class="fw-bold">{{ recipe.name }}</h2>
-        <p class="text-muted">{{ recipe.description }}</p>
-
-        <div class="row mb-3">
-          <div class="col-6 mb-2"><i class="bi bi-star-fill text-warning"></i> <strong>Level:</strong> {{ recipe.level }}</div>
-          <div class="col-6 mb-2"><i class="bi bi-clock text-primary"></i> <strong>Duration :</strong> {{ recipe.duration }}</div>
-          <div class="col-6 mb-2"><i class="bi bi-people-fill text-success"></i> <strong>Amount:</strong> {{ recipe.amount }}</div>
-        </div>
-
-        <hr>
-
-        <h5 class="fw-semibold mt-3">📝 Instructions </h5>
-        <p *ngIf="recipe.instructions && arr.length" [innerHTML]= "recipe.instructions | instructions:arr"></p>
-
-
-
-        <div class="mt-4">
-          <button class="btn btn-outline-primary me-2" routerLink="/home">
-            🔙 חזור לרשימה
-          </button>
-          <a class="btn btn-success"  >
-            💾 שמור מתכון
-          </a>
-        </div>
-      </div>
+<div class="recipe-details-container">
+  <!-- Loading State -->
+  <div class="loading-container" *ngIf="!recipe">
+    <div class="spinner-border text-primary" role="status">
+      <span class="visually-hidden">טוען...</span>
     </div>
   </div>
 
-  <!-- מצרכים -->
-  <div class="card shadow-sm border-0 mt-5 rounded-4">
-    <div  class="card-header bg-info bg-gradient text-white fw-bold">
-      🧂 מצרכים למתכון
+  <!-- Recipe Details -->
+  <div class="container py-5" *ngIf="recipe">
+    <!-- Hero Section -->
+    <div class="recipe-hero">
+      <div class="recipe-hero-image">
+        <img [src]="getImageUrl(recipe.pic)" 
+             [alt]="recipe.name"
+             class="img-fluid">
+        <div class="recipe-hero-overlay">
+          <div class="recipe-level-badge" [class]="'level-' + recipe.level.toLowerCase()">
+            {{ recipe.level }}
+          </div>
+        </div>
+      </div>
+      
+      <div class="recipe-hero-content">
+        <h1 class="recipe-title">{{ recipe.name }}</h1>
+        <p class="recipe-description">{{ recipe.description }}</p>
+        
+        <div class="recipe-stats">
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="stat-content">
+              <span class="stat-value">{{ recipe.duration }}</span>
+              <span class="stat-label">דקות</span>
+            </div>
+          </div>
+          
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <div class="stat-content">
+              <span class="stat-value">{{ recipe.amount }}</span>
+              <span class="stat-label">מנות</span>
+            </div>
+          </div>
+          
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="stat-content">
+              <span class="stat-value">{{ recipe.level }}</span>
+              <span class="stat-label">רמת קושי</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="recipe-actions">
+          <button class="btn btn-outline-primary" routerLink="/home">
+            <i class="fas fa-arrow-right me-2"></i>
+            חזור לרשימה
+          </button>
+          <button class="btn btn-primary">
+            <i class="fas fa-heart me-2"></i>
+            שמור מתכון
+          </button>
+        </div>
+      </div>
     </div>
-<ul class="list-group list-group-flush">
-  @for (ingredient of arr; track $index) {
-    <li class="list-group-item d-flex justify-content-between align-items-center">
-      <div class="d-flex align-items-center">
-        <i class="bi bi-dot text-info me-2"></i>
-        <span class="fw-semibold">{{ ingredient.name }}</span>
-      </div>
-      <div class="text-end">
-        <label class="form-label m-0 text-muted small">כמות</label>
-        <p class="m-0">{{ ingredientAmounts[ingredient.id] }}</p>
-      </div>
-    </li>
-  }
-</ul>
 
+    <!-- Instructions Section -->
+    <div class="instructions-section" *ngIf="recipe.instructions && arr.length">
+      <div class="section-header">
+        <h2>הוראות הכנה</h2>
+        <p>עקבו אחר ההוראות צעד אחר צעד</p>
+      </div>
+      
+      <div class="instructions-content">
+        <div class="instructions-text" [innerHTML]="recipe.instructions | instructions:arr"></div>
+      </div>
+    </div>
+
+    <!-- Ingredients Section -->
+    <div class="ingredients-section">
+      <div class="section-header">
+        <h2>מצרכים</h2>
+        <p>רשימת המצרכים הנדרשים</p>
+      </div>
+      
+      <div class="ingredients-grid">
+        <div class="ingredient-card" *ngFor="let ingredient of arr; trackBy: trackByIngredientId">
+          <div class="ingredient-icon">
+            <i class="fas fa-circle"></i>
+          </div>
+          <div class="ingredient-content">
+            <h5 class="ingredient-name">{{ ingredient.name }}</h5>
+            <div class="ingredient-amount">
+              <span class="amount-value">{{ ingredientAmounts[ingredient.id] }}</span>
+              <span class="amount-label">כמות נדרשת</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 

@@ -3,41 +3,32 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { User } from '../../interface/user';
+
 @Injectable({
   providedIn: 'root'
 })
 export class UserService {
-url="https://backend-project-angular.onrender.com/api/User"
-currentUser:User={ id :0,
-fName:"",
-lName:"",
- email:"" ,
- password:"" }
-connected:boolean=false
+  url = "https://backend-project-angular.onrender.com/api/User"
+  currentUser: User | null = null;
+  connected: boolean = false;
  
-  constructor(private Httpc:HttpClient) { 
+  constructor(private Httpc: HttpClient) { 
     // localStorage.setItem('connected','false')
     // this.connected=localStorage.getItem('connected')==='true'
   }
 
-
-arr:Array<User>=new Array<User>();
-   get():Observable<User[]>{
-    return this.Httpc.get<User[]>(this.url);
-   }
-   add( user:User):Observable<User>{
+  arr: Array<User> = new Array<User>();
   
-   return  this.Httpc.post<User>(this.url,user);
+  get(): Observable<User[]> {
+    return this.Httpc.get<User[]>(this.url);
+  }
+  
+  add(user: User): Observable<User> {
+    return this.Httpc.post<User>(this.url, user);
+  }
 
-   }
-
-
-getUser(email: string, password: string): Observable<User> {
- 
-  const fullUrl = `${this.url}/${email}/${password}`;
-
-  return this.Httpc.get<User>(fullUrl);
-}
-
-
+  getUser(email: string, password: string): Observable<User> {
+    const fullUrl = `${this.url}/${email}/${password}`;
+    return this.Httpc.get<User>(fullUrl);
+  }
 }

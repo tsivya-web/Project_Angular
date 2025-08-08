@@ -1,21 +1,91 @@
-<!-- <p>home-page works!</p> -->
-<!-- @for (item of arr; track $index) {
-  <pre>{{ item | json }}</pre>
-} -->
+<div class="home-container">
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1 class="hero-title">גלה מתכונים מדהימים</h1>
+          <p class="hero-subtitle">אוסף המתכונים הטובים ביותר למטבח שלך</p>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <i class="fas fa-utensils"></i>
+              <span>{{ arr.length }} מתכונים</span>
+            </div>
+            <div class="stat-item">
+              <i class="fas fa-users"></i>
+              <span>משתמשים פעילים</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="hero-image">
+            <i class="fas fa-chef-hat"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-        <div class=" row row-cols-1 row-cols-md-3 g-4">
-  <div class="col" *ngFor="let recipe of arr">
-    <div class="card h-400 shadow-sm">
-
-      <div class="card-body">
-        <img [src]="getImageUrl(recipe.pic)" class="card-body" 
-  style="max-width: 300px;" alt="image of  {{ recipe.name }}">
-        <h5 class="card-title">{{ recipe.name }}</h5>
-        <p class="card-text text-truncate">{{ recipe.description }}</p>
-        <p class="card-text"><strong>level:</strong> {{ recipe.level }}</p>
-        <p class="card-text"><strong>duration:</strong> {{ recipe.duration }}</p>
-        <p class="card-text"><strong> amount:</strong> {{ recipe.amount }}</p>
-        <a class="btn btn-primary" [routerLink]="['/details', recipe.id]"> details</a>
+  <!-- Recipes Grid -->
+  <div class="recipes-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>המתכונים שלנו</h2>
+        <p>בחר מתכון וצא למסע קולינרי</p>
+      </div>
+      
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col" *ngFor="let recipe of arr; trackBy: trackByRecipeId">
+          <div class="recipe-card">
+            <div class="recipe-image">
+              <img [src]="getImageUrl(recipe.pic)" 
+                   [alt]="recipe.name"
+                   class="img-fluid">
+              <div class="recipe-overlay">
+                <div class="recipe-level" [class]="'level-' + recipe.level.toLowerCase()">
+                  {{ recipe.level }}
+                </div>
+              </div>
+            </div>
+            
+            <div class="recipe-content">
+              <h5 class="recipe-title">{{ recipe.name }}</h5>
+              <p class="recipe-description">{{ recipe.description }}</p>
+              
+              <div class="recipe-meta">
+                <div class="meta-item">
+                  <i class="fas fa-clock"></i>
+                  <span>{{ recipe.duration }} דקות</span>
+                </div>
+                <div class="meta-item">
+                  <i class="fas fa-users"></i>
+                  <span>{{ recipe.amount }} מנות</span>
+                </div>
+              </div>
+              
+              <div class="recipe-actions">
+                <button class="btn btn-primary btn-details" 
+                        [routerLink]="['/details', recipe.id]">
+                  <i class="fas fa-eye me-2"></i>
+                  פרטים מלאים
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Empty State -->
+      <div class="empty-state" *ngIf="arr.length === 0">
+        <div class="empty-icon">
+          <i class="fas fa-utensils"></i>
+        </div>
+        <h3>אין מתכונים עדיין</h3>
+        <p>הוסף את המתכון הראשון שלך!</p>
+        <button class="btn btn-primary" routerLink="/add-recipe">
+          <i class="fas fa-plus me-2"></i>
+          הוסף מתכון
+        </button>
       </div>
     </div>
   </div>
